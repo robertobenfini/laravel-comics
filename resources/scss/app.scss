@@ -1,1 +1,56 @@
 @import '~bootstrap/scss/bootstrap';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    width: 70%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border: 4px solid transparent;
+
+    &:hover {
+        border-bottom: 4px solid #0074E8;
+    }
+
+    &:hover a {
+        color: #0074E8;
+    }
+}
+
+.link {
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.img-logo {
+    width: 75px;
+    margin: 15px 0;
+}
+
+.active_a {
+    color: #0074E8;
+}
+
+.active_li {
+    border-bottom: 4px solid #0074E8;
+}
