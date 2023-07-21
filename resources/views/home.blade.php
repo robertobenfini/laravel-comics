@@ -29,7 +29,7 @@
         
         <div class="bg-serie">
             <div class="container">
-                <div class="row">
+                <div class="row position">
                     @foreach($comics as $comic)
                         <div class="col-12 col-md-6 col-lg-2 my-3">
                             <div class="my-card">
@@ -42,6 +42,9 @@
                     @endforeach
                     <div class="col-12 d-flex justify-content-center">
                         <button class="btn-load">LOAD MORE</button>
+                    </div>
+                    <div class="current_series">
+                        CURRENT SERIES
                     </div>
                 </div>
             </div>
