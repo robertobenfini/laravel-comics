@@ -10,6 +10,9 @@
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
+    <!-- link fortawsome -->         
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
     <!-- Styles -->
     @vite('resources/js/app.js')
 
@@ -17,47 +20,7 @@
 
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="content d-flex justify-content-between">
-                    <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" class="img-logo">
-                    <ul class="list-unstyled d-flex">
-                        <li class="nav-link">
-                            <a href="#" class="link">Characters</a>
-                        </li>
-                        <li class="nav-link {{ Route::currentRouteName() === 'homepage' ? 'fw-bold active_li' : ''}}">
-                            <a href="{{ route('homepage') }}" class="link {{ Route::currentRouteName() === 'homepage' ? 'fw-bold active_a' : ''}}">Comics</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#" class="link">Movies</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#" class="link">TV</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#" class="link">Games</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#" class="link">Collectibles</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#" class="link">Videos</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#" class="link">Fans</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#" class="link">News</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#" class="link">Shop</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('partials.header')
 
 </body>
 
