@@ -103,3 +103,83 @@ a {
 .position {
     position: relative;
 }
+
+.bg-icons {
+    background-color: #0074E8;
+}
+
+.icon {
+    width: 4%;
+    margin-left: 40px;
+}
+
+.text-icon {
+    margin-left: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.content-icons {
+    padding: 35px 0;
+}
+
+.bg-footer {
+    background-image: url(../images/footer-bg.jpg);
+
+    .bg_dc {
+        display: flex;
+        background-image: url(../images/dc-logo-bg.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: right center;
+
+        ul {
+            margin: 30px 20px 50px 0;
+        }
+
+    }
+
+    li {
+        a {
+            color: #7F7F7F;
+            font-size: 11px;
+        }
+
+        h4 {
+            color: white;
+            margin: 10px 0;
+        }
+    }
+}
+
+.container_3 {
+    background-color: #303030;
+
+    .sign {
+        display: flex;
+        align-items: center;
+
+        a {
+            color: white;
+            padding: 10px;
+            border: 2px solid #0074E8;
+        }
+
+    }
+
+    .social {
+        padding: 35px 0 35px 0;
+        display: flex;
+        align-items: center;
+
+        h3 {
+            color: #0074E8;
+            margin-right: 20px;
+        }
+
+        a {
+            margin-left: 20px;
+        }
+    }
+
+}
