@@ -51,7 +51,7 @@
         </div>
 
         <footer>
-            <div class="bg-icons">
+            <div class="bg-blu">
                 <div class="container">
                     <div class="row d-flex justify-content-between">
                         <div class="col-12">
@@ -125,7 +125,22 @@
                 </div>
             </div>
 
-            
+            <div class="container_3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-between">
+                            <div class="sign"><a href="#">SIGN-UP NOW!</a></div>
+                            <div class="social">
+                                <a href="#"><h3>FOLLOW US</h3></a>
+                                <a href="#"><img src="{{ Vite::asset('resources/images/footer-facebook.png') }}" alt=""></a>
+                                <a href="#"><img src="{{ Vite::asset('resources/images/footer-twitter.png') }}" alt=""></a>
+                                <a href="#"><img src="{{ Vite::asset('resources/images/footer-youtube.png') }}" alt=""></a>
+                                <a href="#"><img src="{{ Vite::asset('resources/images/footer-periscope.png') }}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
     </main>
 

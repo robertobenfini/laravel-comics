@@ -1,8 +1,16 @@
 <header>
+    <div class="bg-blu text-white">
+        <div class="container">
+            <div class="col-12 d-flex justify-content-end">
+                <span class="me-5">DC POWER &#8480; VISA &#174;</span>
+                <span>ADDITIONAL DC SITES <i class="fa-solid fa-caret-down ms-2" style="color: #fff;"></i></span>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="content d-flex justify-content-between">
+                <div class="d-flex justify-content-between">
                     <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" class="img-logo">
                     <ul class="list-unstyled d-flex ms-5 text-uppercase">
                         <li class="nav-link">
