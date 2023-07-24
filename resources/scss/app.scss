@@ -195,7 +195,28 @@ a {
 
 }
 
+.container-blu {
+    background-color: #0074E8;
+    height: 50px;
+    width: 100%;
+}
+
+.img-adv {
+    height: 200px;
+    width: 210px;
+}
+
 .img-show {
     width: 150px;
-    height: 250px;
+    height: 230px;
+    position: absolute;
+    top: 32%;
+    left: 17%;
+}
+
+.button-green {
+    height: 35px;
+    background-color: #55BA59;
+    width: 100%;
+    color: white;
 }
