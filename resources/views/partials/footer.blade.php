@@ -26,7 +26,7 @@
 
     <div class="bg-footer">
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row">
                 <div class="col-12">
                     <div class="bg_dc">
                         <ul>
@@ -73,7 +73,7 @@
         </div>
     </div>
 
-    <div class="container_3">
+    <div class="bg-social">
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-between">

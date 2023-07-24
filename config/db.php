@@ -213,7 +213,6 @@ return [
             "Joëlle Jones"
         ],
     ],
-    ],
-        
+    ],    
 ];
 

@@ -50,8 +50,8 @@
             </div>
         </div>
 
-        @include('partials.footer')
     </main>
+    @include('partials.footer')
 
 </body>
 

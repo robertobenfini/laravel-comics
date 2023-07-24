@@ -10,8 +10,10 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="d-flex justify-content-between">
-                    <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" class="img-logo">
+                <div class="d-flex justify-content-center">
+                    <a href="{{ url('/') }}">
+                        <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" class="img-logo">
+                    </a>
                     <ul class="list-unstyled d-flex ms-5 text-uppercase">
                         <li class="nav-link">
                             <a href="#" class="link">Characters</a>
@@ -47,7 +49,7 @@
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="col-md-8">
                             <div class="search d-flex">
-                                <input type="text" class="form-control" placeholder="">
+                                <input type="text" class="form-control border-0" placeholder="Search">
                                 <i class="fa fa-search align-self-center"></i>
                             </div>
                         </div>
